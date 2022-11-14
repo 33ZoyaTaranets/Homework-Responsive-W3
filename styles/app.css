@@ -5,7 +5,8 @@
   }
   
   body {
-    margin-top: 100px;
+    margin: 100px 0;
+   
   }
   
   h1,
@@ -48,12 +49,7 @@
     margin-top: 40px;
     margin-bottom: 40px;
     justify-content: center;
-  }
-
-  .navigation-links:hover {
-color: #8A2BE2;
-  }
-  
+  }  
 
   .navigation-links a {
     margin: 20px;
@@ -106,6 +102,7 @@ color: #8A2BE2;
   
   .email-link:hover {
     text-decoration: underline;
+    color: #8A2BE2;
   }
   
   .primary-link {
@@ -117,4 +114,38 @@ color: #8A2BE2;
     box-shadow: var(--box-shadow);
     color: white;
   }
+
+  .primary-link:hover {
+    color: #8A2BE2;
+      }
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 48px;
+        line-height: 1.5;
+    }
+
+    h2 {
+        font-size: 32px;
+
+    }
+    
+p {
+    text-align: center;
+}
+
+    .mob-centered {
+        text-align: center;
+    }
+
+    .width-link {
+        display: block;
+        text-align: center;
+        margin: 0 15px;
+    }
+    
+    .hide-img {
+            display: none;
+          }
+     }
   
