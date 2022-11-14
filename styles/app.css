@@ -50,6 +50,11 @@
     justify-content: center;
   }
 
+  .navigation-links:hover {
+color: #8A2BE2;
+  }
+  
+
   .navigation-links a {
     margin: 20px;
     border-radius: 4px;
@@ -70,10 +75,10 @@
   }
 
   .about-link:hover {
-    color: #DF99FC;
+    color: #8A2BE2;
   }
   .contact-link:hover {
-    color: #DF99FC;
+    color: #8A2BE2;
   }
   
   .homepage-link {
