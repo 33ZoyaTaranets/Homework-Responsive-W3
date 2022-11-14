@@ -49,7 +49,7 @@
     margin-bottom: 40px;
     justify-content: center;
   }
-  
+
   .navigation-links a {
     margin: 20px;
     border-radius: 4px;
@@ -67,6 +67,13 @@
   .about-link {
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
+  }
+
+  .about-link:hover {
+    color: #DF99FC;
+  }
+  .contact-link:hover {
+    color: #DF99FC;
   }
   
   .homepage-link {
